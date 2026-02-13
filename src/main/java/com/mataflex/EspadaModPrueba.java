@@ -43,6 +43,9 @@ public class EspadaModPrueba implements ModInitializer {
 				MYSTICAL_VIKING,
 				ZombifiedPiglin.createAttributes()
 		);
+
+		CustomSounds.initialize();
+
 	}
 
 }

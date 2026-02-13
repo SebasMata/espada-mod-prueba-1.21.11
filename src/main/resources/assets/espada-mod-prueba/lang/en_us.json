@@ -1,6 +1,10 @@
 {
-  "item.espada-mod-prueba.suspicious_substance": "Espada do pruebinha",
+  "item.espada-mod-prueba.suspicious_substance": "Suspicious substance",
   "item.espada-mod-prueba.mystical_sword": "Mystical Sword",
   "item.espada-mod-prueba.mystical_axe": "Mystical Axe",
-  "item.espada-mod-prueba.mystical_pickaxe": "Mystical Pickaxe"
+  "item.espada-mod-prueba.mystical_pickaxe": "Mystical Pickaxe",
+  "entity.espada-mod-prueba.mystical_viking": "Mystical Viking",
+  "subtitles.espada-mod-prueba.viking_grunt": "Mystical Viking grunts"
+
 }
+
