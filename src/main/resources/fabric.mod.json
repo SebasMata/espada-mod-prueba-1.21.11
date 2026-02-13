@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "espada-mod-prueba",
-	"version": "${version}",
+	"version": "${}",
 	"name": "Espada Mod Prueba",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Test mod for learning how to create a Minecraft mod using Fabric. Adds a Mystical Sword!",
 	"authors": [
 		"Mataflex"
 	],

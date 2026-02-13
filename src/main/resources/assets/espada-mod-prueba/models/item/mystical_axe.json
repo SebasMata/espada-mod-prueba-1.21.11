@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "espada-mod-prueba:item/mystical_axe"
+  }
+}
