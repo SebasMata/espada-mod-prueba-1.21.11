@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "#",
+        "N"
+    ],
+    "key": {
+        "#": "minecraft:netherite_block",
+        "N": "minecraft:netherite_sword"
+    },
+    "result": {
+        "id": "espada-mod-prueba:mystical_sword",
+        "count": 1
+    }
+}
