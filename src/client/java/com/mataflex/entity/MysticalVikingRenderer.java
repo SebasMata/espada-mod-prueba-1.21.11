@@ -3,11 +3,11 @@ package com.mataflex.entity;
 import com.mataflex.EspadaModPrueba;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.renderer.entity.ZombifiedPiglinRenderer;
-import net.minecraft.client.renderer.entity.state.ZombifiedPiglinRenderState;
+import net.minecraft.client.renderer.entity.PiglinRenderer;
+import net.minecraft.client.renderer.entity.state.PiglinRenderState;
 import net.minecraft.resources.Identifier;
 
-public class MysticalVikingRenderer extends ZombifiedPiglinRenderer {
+public class MysticalVikingRenderer extends PiglinRenderer {
 
     private static final Identifier TEXTURE =
             Identifier.fromNamespaceAndPath(
@@ -26,7 +26,7 @@ public class MysticalVikingRenderer extends ZombifiedPiglinRenderer {
     }
 
     @Override
-    public Identifier getTextureLocation(ZombifiedPiglinRenderState renderState) {
+    public Identifier getTextureLocation(PiglinRenderState renderState) {
         return TEXTURE;
     }
 }

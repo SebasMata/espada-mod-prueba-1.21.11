@@ -10,6 +10,8 @@ public class CustomSounds {
     private CustomSounds() {}
 
     public static final SoundEvent VIKING_GRUNT = registerSound("viking_grunt");
+    public static final SoundEvent VIKING_DEATH = registerSound("viking_death");
+    public static final SoundEvent VIKING_AMBIENT = registerSound("viking_ambient");
 
     private static SoundEvent registerSound(String name) {
         Identifier id = Identifier.fromNamespaceAndPath(EspadaModPrueba.MOD_ID, name);
