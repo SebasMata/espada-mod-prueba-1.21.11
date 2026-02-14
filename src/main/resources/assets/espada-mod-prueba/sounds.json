@@ -4,5 +4,23 @@
     "sounds": [
       "espada-mod-prueba:viking_grunt"
     ]
+  },
+    "viking_death": {
+        "subtitle": "subtitles.espada-mod-prueba.viking_death",
+        "sounds": [
+        "espada-mod-prueba:viking_death"
+        ]
+    },
+    "viking_ambient": {
+        "subtitle": "subtitles.espada-mod-prueba.viking_ambient",
+        "sounds": [
+        "espada-mod-prueba:viking_ambient"
+        ]
+    },
+  "viking_ambient_2": {
+    "subtitle": "subtitles.espada-mod-prueba.viking_ambient_2",
+    "sounds": [
+      "espada-mod-prueba:viking_ambient_2"
+    ]
   }
 }
