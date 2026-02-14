@@ -58,7 +58,7 @@ public class MysticalVikingEntity extends Piglin {
     }
 
     @Override
-    protected void playStepSound(BlockPos pos, BlockState state) {
+    protected void playStepSound(@NonNull BlockPos pos, @NonNull BlockState state) {
         this.playSound(SoundEvents.PIGLIN_STEP, 0.3F, 0.7F);
     }
 
