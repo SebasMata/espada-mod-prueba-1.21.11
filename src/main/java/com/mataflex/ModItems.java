@@ -9,19 +9,39 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.monster.illager.Pillager;
 import net.minecraft.world.entity.monster.zombie.ZombifiedPiglin;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.component.Consumable;
+import net.minecraft.world.item.component.Consumables;
+import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
 
 import java.util.function.Function;
 
 public class ModItems {
 
+    // ITEMS
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
 
+    public static final Consumable REGENARATION_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood()
+            // The duration is in ticks, 20 ticks = 1 second
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 180 * 20, 1), 1.0f))
+            .build();
+
+    public static final FoodProperties REGENERATION_FOOD_COMPONENT = new FoodProperties.Builder()
+            .alwaysEdible()
+            .build();
+
+    public static final Item MYSTICAL_ESSENCE = register("mystical_essence", Item::new,
+            new Item.Properties().food(REGENERATION_FOOD_COMPONENT, REGENARATION_FOOD_CONSUMABLE_COMPONENT));
+
+    // MYSTICAL TOOL MATERIAL
     public static final ToolMaterial MYSTICAL_TOOL_MATERIAL = new ToolMaterial(
             BlockTags.INCORRECT_FOR_WOODEN_TOOL,
             16384,
@@ -31,6 +51,8 @@ public class ModItems {
             ToolMaterial.DIAMOND.repairItems()
     );
 
+
+    // MYSTICAL TOOLS
     public static final Item MYSTICAL_SWORD = register(
             "mystical_sword",
             Item::new,
@@ -40,7 +62,7 @@ public class ModItems {
     public static final Item MYSTICAL_AXE = register (
             "mystical_axe",
             Item::new,
-            new Item.Properties().axe(MYSTICAL_TOOL_MATERIAL, 24.5f, -3.0f)
+            new Item.Properties().axe(MYSTICAL_TOOL_MATERIAL, 24.5f, -5.0f)
     );
 
     public static final Item MYSTICAL_PICKAXE = register (
@@ -63,8 +85,6 @@ public class ModItems {
     }
 
     public static void initialize() {
-        // Get the event for modifying entries in the ingredients group.
-        // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.accept(ModItems.SUSPICIOUS_SUBSTANCE));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
@@ -73,7 +93,8 @@ public class ModItems {
                 .register((itemGroup) -> itemGroup.accept(ModItems.MYSTICAL_AXE));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
                 .register((itemGroup) -> itemGroup.accept(ModItems.MYSTICAL_PICKAXE));
-
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS)
+                .register((itemGroup) -> itemGroup.accept(ModItems.MYSTICAL_ESSENCE));
     }
 
 }

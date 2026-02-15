@@ -15,7 +15,6 @@ import net.minecraft.world.entity.ai.memory.MemoryModuleType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.schedule.Activity;
 import net.minecraft.world.item.ItemStack;
-
 import java.util.Optional;
 
 public class MysticalVikingAi {
@@ -48,7 +47,7 @@ public class MysticalVikingAi {
 
     @SuppressWarnings("unchecked")
     private static <T extends BehaviorControl<?>> BehaviorControl<MysticalVikingEntity> cast(T behavior) {
-        return (BehaviorControl<MysticalVikingEntity>) (BehaviorControl<?>) behavior;
+        return (BehaviorControl<MysticalVikingEntity>) behavior;
     }
 
     private static void initIdleActivity(Brain<MysticalVikingEntity> brain) {
@@ -97,7 +96,6 @@ public class MysticalVikingAi {
 
     // === COMPORTAMIENTOS AUXILIARES ===
 
-    @SuppressWarnings("unchecked")
     private static BehaviorControl<? extends LivingEntity> createIdleLookBehaviors() {
         return new RunOne<>(ImmutableList.of(
                 Pair.of(SetEntityLookTarget.create(EntityType.PLAYER, 8.0F), 1),
@@ -106,7 +104,6 @@ public class MysticalVikingAi {
         ));
     }
 
-    @SuppressWarnings("unchecked")
     private static BehaviorControl<? extends LivingEntity> createIdleMovementBehaviors() {
         return new RunOne<>(ImmutableList.of(
                 Pair.of(RandomStroll.stroll(0.6F), 2),
