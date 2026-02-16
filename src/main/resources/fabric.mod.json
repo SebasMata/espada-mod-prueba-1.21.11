@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "espada-mod-prueba",
+	"id": "valhalla-echoes",
 	"version": "${version}",
-	"name": "Espada Mod Prueba",
+	"name": "Valhalla Echoes",
 	"description": "Test mod for learning how to create a Minecraft mod using Fabric. Adds a Mystical Sword!",
 	"authors": [
 		"Mataflex"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/SebasMata/espada-mod-prueba-template-1.21.11"
+		"sources": "https://github.com/SebasMata/valhalla-echoes-template-1.21.11"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/espada-mod-prueba/icon.png",
+	"icon": "assets/valhalla-echoes/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.mataflex.EspadaModPrueba"
+			"com.mataflex.ValhallaEchoes"
 		],
 		"client": [
-			"com.mataflex.EspadaModPruebaClient"
+			"com.mataflex.ValhallaEchoesClient"
 		]
 	},
 	"mixins": [
-		"espada-mod-prueba.mixins.json",
+		"valhalla-echoes.mixins.json",
 		{
-			"config": "espada-mod-prueba.client.mixins.json",
+			"config": "valhalla-echoes.client.mixins.json",
 			"environment": "client"
 		}
 	],

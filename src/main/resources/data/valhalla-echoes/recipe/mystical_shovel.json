@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "N",
+        "/"
+    ],
+    "key": {
+        "#": "valhalla-echoes:mystical_ingot",
+        "N": "minecraft:netherite_shovel",
+        "/": "valhalla-echoes:obsidian_rod"
+    },
+    "result": {
+        "id": "valhalla-echoes:mystical_shovel",
+        "count": 1
+    }
+}

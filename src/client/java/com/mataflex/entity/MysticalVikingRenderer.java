@@ -1,6 +1,6 @@
 package com.mataflex.entity;
 
-import com.mataflex.EspadaModPrueba;
+import com.mataflex.ValhallaEchoes;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.PiglinRenderer;
@@ -11,7 +11,7 @@ public class MysticalVikingRenderer extends PiglinRenderer {
 
     private static final Identifier TEXTURE =
             Identifier.fromNamespaceAndPath(
-                    EspadaModPrueba.MOD_ID,
+                    ValhallaEchoes.MOD_ID,
                     "textures/entity/mystical_viking.png"
             );
 

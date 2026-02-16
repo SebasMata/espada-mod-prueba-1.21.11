@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "eNe",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "e": "valhalla-echoes:mystical_ingot",
+        "N": "minecraft:netherite_axe",
+        "/": "valhalla-echoes:obsidian_rod"
+    },
+    "result": {
+        "id": "valhalla-echoes:mystical_axe",
+        "count": 1
+    }
+}

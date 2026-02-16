@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "valhalla-echoes:item/mystical_pickaxe"
+  }
+}

@@ -24,7 +24,6 @@ public class ModCreativeTabs {
                         .title(Component.translatable("itemGroup.tumodid.mystical_tab"))
                         .icon(() -> new ItemStack(ModItems.MYSTICAL_SWORD))
                         .displayItems((itemDisplayParameters, output) -> {
-                            // Añade todos tus items aquí
                             output.accept(ModItems.SUSPICIOUS_SUBSTANCE);
                             output.accept(ModItems.MYSTICAL_ESSENCE);
                             output.accept(ModItems.MYSTICAL_INGOT);
@@ -33,6 +32,7 @@ public class ModCreativeTabs {
                             output.accept(ModItems.MYSTICAL_AXE);
                             output.accept(ModItems.MYSTICAL_PICKAXE);
                             output.accept(ModItems.MYSTICAL_SHOVEL);
+                            output.accept(ModItems.RUNIC_GEM);
                         })
                         .build()
         );

@@ -1,0 +1,62 @@
+{
+  "viking_grunt": {
+    "subtitle": "subtitles.valhalla-echoes.viking_grunt",
+    "sounds": [
+      "valhalla-echoes:viking_grunt"
+    ]
+  },
+  "viking_death": {
+    "subtitle": "subtitles.valhalla-echoes.viking_death",
+    "sounds": [
+      "valhalla-echoes:viking_death"
+    ]
+  },
+  "viking_ambient": {
+    "subtitle": "subtitles.valhalla-echoes.viking_ambient",
+    "sounds": [
+      "valhalla-echoes:viking_ambient"
+    ]
+  },
+  "viking_angry": {
+    "subtitle": "subtitles.valhalla-echoes.viking_angry",
+    "sounds": [
+      "valhalla-echoes:viking_angry"
+    ]
+  },
+  "viking_admiring": {
+    "subtitle": "subtitles.valhalla-echoes.viking_admiring",
+    "sounds": [
+      "valhalla-echoes:viking_admiring"
+    ]
+  },
+  "viking_celebrate": {
+    "subtitle": "subtitles.valhalla-echoes.viking_celebrate",
+    "sounds": [
+      "valhalla-echoes:viking_celebrate"
+    ]
+  },
+  "viking_jealous": {
+    "subtitle": "subtitles.valhalla-echoes.viking_jealous",
+    "sounds": [
+      "valhalla-echoes:viking_jealous"
+    ]
+  },
+  "viking_retreat": {
+    "subtitle": "subtitles.valhalla-echoes.viking_retreat",
+    "sounds": [
+      "valhalla-echoes:viking_retreat"
+    ]
+  },
+  "viking_hurt": {
+    "subtitle": "subtitles.valhalla-echoes.viking_hurt",
+    "sounds": [
+      "valhalla-echoes:viking_hurt"
+    ]
+  },
+  "viking_attack": {
+    "subtitle": "subtitles.valhalla-echoes.viking_attack",
+    "sounds": [
+      "valhalla-echoes:viking_attack"
+    ]
+  }
+}

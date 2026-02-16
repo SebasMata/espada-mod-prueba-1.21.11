@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#E#",
+        "###"
+    ],
+    "key": {
+        "#": "valhalla-echoes:mystical_essence",
+        "E": "minecraft:emerald"
+    },
+    "result": {
+        "id": "valhalla-echoes:runic_gem",
+        "count": 1
+    }
+}

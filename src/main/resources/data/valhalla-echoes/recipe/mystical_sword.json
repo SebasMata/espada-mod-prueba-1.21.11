@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "#",
+        "N"
+    ],
+    "key": {
+        "#": "valhalla-echoes:mystical_ingot",
+        "N": "minecraft:netherite_sword"
+    },
+    "result": {
+        "id": "valhalla-echoes:mystical_sword",
+        "count": 1
+    }
+}

@@ -26,7 +26,6 @@ public class ModItems {
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
 
     public static final Consumable REGENARATION_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood()
-            // The duration is in ticks, 20 ticks = 1 second
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 180 * 20, 1), 1.0f))
             .build();
 
@@ -41,10 +40,12 @@ public class ModItems {
 
     public static final Item OBSIDIAN_ROD = register("obsidian_rod", Item::new, new Item.Properties());
 
+    public static final Item RUNIC_GEM = register("runic_gem", Item::new, new Item.Properties());
+
     public static final SpawnEggItem VIKING_SPAWN_EGG = register(
             "viking_spawn_egg",
             SpawnEggItem::new,
-            new Item.Properties().spawnEgg(EspadaModPrueba.MYSTICAL_VIKING)
+            new Item.Properties().spawnEgg(ValhallaEchoes.MYSTICAL_VIKING)
     );
 
     // MYSTICAL TOOL MATERIAL
@@ -84,7 +85,7 @@ public class ModItems {
 
     public static <GenericItem extends Item> GenericItem register(String name, Function<Item.Properties, GenericItem> itemFactory, Item.Properties settings) {
         // Create the item key.
-        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(EspadaModPrueba.MOD_ID, name));
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(ValhallaEchoes.MOD_ID, name));
 
         // Create the item instance.
         GenericItem item = itemFactory.apply(settings.setId(itemKey));

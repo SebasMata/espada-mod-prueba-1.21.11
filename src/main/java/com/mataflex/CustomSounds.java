@@ -20,11 +20,11 @@ public class CustomSounds {
 
 
     private static SoundEvent registerSound(String name) {
-        Identifier id = Identifier.fromNamespaceAndPath(EspadaModPrueba.MOD_ID, name);
+        Identifier id = Identifier.fromNamespaceAndPath(ValhallaEchoes.MOD_ID, name);
         return Registry.register(BuiltInRegistries.SOUND_EVENT, id, SoundEvent.createVariableRangeEvent(id));
     }
 
     public static void initialize() {
-        EspadaModPrueba.LOGGER.info("Registrando sonidos de vikingo...");
+        ValhallaEchoes.LOGGER.info("Registrando sonidos de vikingo...");
     }
 }
