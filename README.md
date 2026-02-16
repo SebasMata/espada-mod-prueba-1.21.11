@@ -1,6 +1,8 @@
 ## Espada Mod Prueba | Designed for Fabric
 
-Minecraft: Java version 1.21.11
+**Minecraft:** Java version 1.21.11
+
+**Fabric:** At least 0.18.4
 
 Mystical Objects, Vikings and more to be added in the future.
 
