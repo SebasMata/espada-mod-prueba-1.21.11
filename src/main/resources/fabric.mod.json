@@ -3,13 +3,13 @@
 	"id": "valhalla-echoes",
 	"version": "${version}",
 	"name": "Valhalla Echoes",
-	"description": "Test mod for learning how to create a Minecraft mod using Fabric. Adds a Mystical Sword!",
+	"description": "Just a small private project to learn how to code Minecraft Java mods using Fabric. This mod adds a new mob: Mystical Vikings. They have overpowered weapons and tools you should try to get by farming a lot of Mystical Vikings.",
 	"authors": [
 		"Mataflex"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/SebasMata/valhalla-echoes-template-1.21.11"
+		"sources": "https://github.com/SebasMata/valhalla-echoes-1.21.11"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/valhalla-echoes/icon.png",
