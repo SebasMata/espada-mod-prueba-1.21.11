@@ -57,6 +57,7 @@ public class MysticalVikingEntity extends Piglin {
             this.spawnAtLocation(serverLevel, new ItemStack(Items.IRON_INGOT, 1));
         }
     }
+
     @Override
     protected @NonNull Brain<?> makeBrain(@NonNull Dynamic<?> dynamic) {
         Brain<Piglin> piglinBrain = this.brainProvider().makeBrain(dynamic);
