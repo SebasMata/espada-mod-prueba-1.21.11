@@ -3,7 +3,7 @@
 	"package": "com.mataflex.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"TargeShieldMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -18,7 +19,6 @@ import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
-
 import java.util.function.Function;
 
 public class ModItems {
@@ -101,8 +101,10 @@ public class ModItems {
     public static final Item TARGE_SHIELD = register(
             "targe_shield",
             TargeShieldItem::new,
-            new Item.Properties().durability(500)
+            new Item.Properties()
+                    .durability(500)
     );
+
     public static void initialize() {
 
         // ITEMS
