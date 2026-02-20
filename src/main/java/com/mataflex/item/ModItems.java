@@ -1,5 +1,6 @@
-package com.mataflex;
+package com.mataflex.item;
 
+import com.mataflex.ValhallaEchoes;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -96,6 +97,12 @@ public class ModItems {
         return item;
     }
 
+    // Targe shield
+    public static final Item TARGE_SHIELD = register(
+            "targe_shield",
+            TargeShieldItem::new,
+            new Item.Properties().durability(500)
+    );
     public static void initialize() {
 
         // ITEMS

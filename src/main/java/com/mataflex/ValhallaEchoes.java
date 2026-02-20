@@ -1,6 +1,8 @@
 package com.mataflex;
 
 import com.mataflex.entity.MysticalVikingEntity;
+import com.mataflex.item.ModItems;
+import com.mataflex.sound.CustomSounds;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

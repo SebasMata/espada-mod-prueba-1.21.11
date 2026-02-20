@@ -1,5 +1,6 @@
 package com.mataflex; // Tu paquete aquí
 
+import com.mataflex.item.ModItems;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -33,6 +34,7 @@ public class ModCreativeTabs {
                             output.accept(ModItems.MYSTICAL_PICKAXE);
                             output.accept(ModItems.MYSTICAL_SHOVEL);
                             output.accept(ModItems.RUNIC_GEM);
+                            output.accept(ModItems.TARGE_SHIELD);
                         })
                         .build()
         );

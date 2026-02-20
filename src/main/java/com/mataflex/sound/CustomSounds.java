@@ -1,5 +1,6 @@
-package com.mataflex;
+package com.mataflex.sound;
 
+import com.mataflex.ValhallaEchoes;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;

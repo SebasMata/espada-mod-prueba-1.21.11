@@ -2,9 +2,9 @@ package com.mataflex.entity;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
-import com.mataflex.ModItems;
+import com.mataflex.item.ModItems;
 import com.mojang.datafixers.util.Pair;
-import com.mataflex.CustomSounds;
+import com.mataflex.sound.CustomSounds;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.EntityType;
