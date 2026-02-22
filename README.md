@@ -12,6 +12,12 @@ This mod adds a new mob: Mystical Vikings. They have overpowered weapons and too
 ### Github
 For releases checkout its [tab](https://github.com/SebasMata/valhalla-echoes-template-1.21.11/releases).
 
+### Modrinth
+You can check the mod's website on Modrinth here:
+
+[<img width="128" height="23.75" alt="image" src="https://github.com/user-attachments/assets/792de0a2-ca6e-4404-9ea9-95579329c388" />
+](https://modrinth.com/mod/valhalla-echoes)
+
 ### Download
 You can download the mod directly here:
 * [v0.2.1-pre-alpha](https://github.com/SebasMata/valhalla-echoes-1.21.11/releases/tag/v0.2.1-pre-alpha)
