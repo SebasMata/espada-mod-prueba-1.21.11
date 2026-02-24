@@ -15,15 +15,13 @@ import java.util.EnumMap;
 
 public class ModArmorMaterials {
 
-    // 1. Tag para reparación (Usando Identifier como pide tu Registries)
     public static final TagKey<Item> REPAIRS_MYSTICAL_ARMOR = TagKey.create(
             Registries.ITEM,
             Identifier.fromNamespaceAndPath(ValhallaEchoes.MOD_ID, "repairs_mystical_armor")
     );
 
-    // 2. Definimos el material (Sin registrarlo en un registro que no existe)
     public static final ArmorMaterial MYSTICAL = new ArmorMaterial(
-            33, // Durabilidad (Diamante = 33)
+            33,
             Util.make(new EnumMap<>(ArmorType.class), map -> {
                 map.put(ArmorType.BOOTS, 3);
                 map.put(ArmorType.LEGGINGS, 6);
@@ -31,12 +29,12 @@ public class ModArmorMaterials {
                 map.put(ArmorType.HELMET, 3);
                 map.put(ArmorType.BODY, 11);
             }),
-            15, // Encantabilidad
+            15,
             SoundEvents.ARMOR_EQUIP_DIAMOND,
-            3.0F, // Toughness
-            0.1F, // Knockback Resistance
+            3.0F,
+            0.2F,
             REPAIRS_MYSTICAL_ARMOR,
-            // 3. Apuntamos a la textura (Asset) directamente
+
             ResourceKey.create(ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset")),
                     Identifier.fromNamespaceAndPath(ValhallaEchoes.MOD_ID, "mystical"))
     );
