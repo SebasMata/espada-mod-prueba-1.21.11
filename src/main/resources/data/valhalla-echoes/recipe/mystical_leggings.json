@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "eNe"
+  ],
+  "key": {
+    "e": "valhalla-echoes:mystical_ingot",
+    "N": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "id": "valhalla-echoes:mystical_leggings",
+    "count": 1
+  }
+}
