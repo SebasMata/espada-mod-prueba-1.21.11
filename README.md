@@ -1,4 +1,4 @@
-## <img width="300" height="80" alt="valhalla_echoes_logo (2)" src="https://github.com/user-attachments/assets/77455593-a013-414d-bede-e5255db863f9" />
+## <img width="1920" height="540" alt="logo_ve_large" src="https://github.com/user-attachments/assets/7156b223-a268-4f55-a238-326ec4148244" />
 
 ### Designed for Minecraft Java & Fabric
 
@@ -6,7 +6,11 @@
 
 **Fabric:** At least 0.18.4
 
-This mod adds a new mob: Mystical Vikings. They have overpowered weapons and tools you should try to get by farming a lot of Mystical Vikings.
+This mod adds a new mob: **Mystical Vikings**. They have overpowered weapons and tools you should try to get by farming a lot of Mystical Vikings.
+
+Also new items are added, such as the **Mystical Ingot**, crafteable with diamonds, netherite ingots and a **Runic Gem**. Making you explore in search of **Mystical Vikings** to get your own weapons and shield by eliminating them.
+
+<img width="640" height="360" alt="ss_vikings (1)" src="https://github.com/user-attachments/assets/213c26c5-b2b7-483e-83b5-cf6e7c0d6af8" />
 
 ## Releases
 ### Github
