@@ -16,7 +16,7 @@ public class HornedHelmetModel extends HumanoidModel<HumanoidRenderState> {
         PartDefinition partdefinition = meshdefinition.getRoot();
 
         PartDefinition head = partdefinition.addOrReplaceChild("head", CubeListBuilder.create()
-                        .texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.5F)),
+                        .texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.2F)),
                 PartPose.offset(0.0F, 0.0F, 0.0F));
 
         head.addOrReplaceChild("Horns", CubeListBuilder.create()

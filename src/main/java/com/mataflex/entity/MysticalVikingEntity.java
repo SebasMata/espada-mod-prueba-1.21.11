@@ -42,8 +42,6 @@ public class MysticalVikingEntity extends Piglin {
         } else {
             this.setItemSlot(net.minecraft.world.entity.EquipmentSlot.HEAD, net.minecraft.world.item.ItemStack.EMPTY);
         }
-        System.out.println("VIKINGO ES BEBE? : " + this.isBaby());
-
     }
 
     @Override
