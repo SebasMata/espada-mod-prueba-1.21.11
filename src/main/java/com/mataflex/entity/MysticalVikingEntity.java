@@ -33,14 +33,16 @@ public class MysticalVikingEntity extends Piglin {
     }
 
     @Override
-    public void populateDefaultEquipmentSlots(RandomSource randomSource, @NonNull DifficultyInstance difficultyInstance) {
-        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(randomSource.nextInt(20) == 0 ? ModItems.MYSTICAL_SWORD : ModItems.MYSTICAL_AXE));
+    protected void populateDefaultEquipmentSlots(net.minecraft.util.RandomSource randomSource, net.minecraft.world.DifficultyInstance difficultyInstance) {
+        this.setItemSlot(net.minecraft.world.entity.EquipmentSlot.MAINHAND, new net.minecraft.world.item.ItemStack(randomSource.nextInt(20) == 0 ? com.mataflex.item.ModItems.MYSTICAL_SWORD : com.mataflex.item.ModItems.MYSTICAL_AXE));
 
-        ItemStack helmet = randomSource.nextFloat() < 0.35F
-                ? new ItemStack(ModItems.HORNED_HELMET)
-                : ItemStack.EMPTY;
-
-        this.setItemSlot(EquipmentSlot.HEAD, helmet);
+        if (!this.isBaby() && randomSource.nextFloat() < 0.35F) {
+            System.out.println(this.isBaby());
+            this.setItemSlot(net.minecraft.world.entity.EquipmentSlot.HEAD, new net.minecraft.world.item.ItemStack(com.mataflex.item.ModItems.HORNED_HELMET));
+        } else {
+            this.setItemSlot(net.minecraft.world.entity.EquipmentSlot.HEAD, net.minecraft.world.item.ItemStack.EMPTY);
+        }
+        System.out.println("VIKINGO ES BEBE? : " + this.isBaby());
 
     }
 

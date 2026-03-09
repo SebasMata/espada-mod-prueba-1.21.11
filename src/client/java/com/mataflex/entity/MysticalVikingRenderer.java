@@ -18,10 +18,10 @@ public class MysticalVikingRenderer extends PiglinRenderer {
     public MysticalVikingRenderer(EntityRendererProvider.Context context) {
         super(
                 context,
-                ModelLayers.PIGLIN_BABY,
                 ModelLayers.PIGLIN,
-                ModelLayers.PIGLIN_BABY_ARMOR,
-                ModelLayers.PIGLIN_ARMOR
+                ModelLayers.PIGLIN_BABY,
+                ModelLayers.PIGLIN_ARMOR,
+                ModelLayers.PIGLIN_BABY_ARMOR
         );
     }
 
