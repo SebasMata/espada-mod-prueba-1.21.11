@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    " V "
+  ],
+  "key": {
+    "#": "minecraft:goat_horn",
+    "i": "minecraft:iron_ingot",
+    "V": "valhalla-echoes:mystical_helmet"
+  },
+  "result": {
+    "id": "valhalla-echoes:horned_helmet",
+    "count": 1
+  }
+}
