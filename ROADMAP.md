@@ -1,13 +1,19 @@
-# **Valhalla Echoes**
+# Valhalla Echoes - Roadmap
 
-### **Cosas por añadir**
+## v0.3.x (En progreso)
+### Entidades
+- [ ] Gestionar spawneo de Vikingos - **Alta prioridad**
+- [ ] Draugr (similar a Wither Skeleton)
 
-* Gestionar el spawneo de Vikingos (**para la 0.3.0**)
-* Añadir algún item que ayude al usuario
-* ~~Armadura mística para Vikingos~~ ✅
-* Aldeas de vikingos (**para la 0.3.0**)
-* Fenrir
-* Estandartes de clanes
-* Clanes de vikingos
-* Draugr (podría ser parecido al Wither Skeleton?)
-* ~~Escudo~~ ✅
+### Estructuras
+- [ ] Aldeas de vikingos - **Alta prioridad**
+- [ ] Estandartes de clanes
+
+## v0.4.x (Planeado)
+- [ ] Sistema de clanes de vikingos
+- [ ] Fenrir (jefe)
+- [ ] Items especiales para usuarios
+
+## Completado (v0.2.x)
+- [x] Armadura mística para Vikingos
+- [x] Escudo
