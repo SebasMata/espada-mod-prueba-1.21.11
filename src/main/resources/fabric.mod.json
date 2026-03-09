@@ -3,12 +3,11 @@
 	"id": "valhalla-echoes",
 	"version": "${version}",
 	"name": "Valhalla Echoes",
-	"description": "Just a small private project to learn how to code Minecraft Java mods using Fabric. This mod adds a new mob: Mystical Vikings. They have overpowered weapons and tools you should try to get by farming a lot of Mystical Vikings.",
-	"authors": [
+	"description": "Awaken the legends of the North! Valhalla Echoes introduces fearsome Mystical Vikings to Minecraft, featuring uniquely modeled 3D equipment like the iconic Horned Helmet and powerful mystical weaponry. Brace yourself for the sounds of battle as you encounter these ancient warriors.",	"authors": [
 		"Mataflex"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://modrinth.com/mod/valhalla-echoes",
 		"sources": "https://github.com/SebasMata/valhalla-echoes-1.21.11"
 	},
 	"license": "CC0-1.0",
