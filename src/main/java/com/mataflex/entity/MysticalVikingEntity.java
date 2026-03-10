@@ -22,6 +22,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
@@ -34,6 +35,7 @@ public class MysticalVikingEntity extends Piglin {
     public MysticalVikingEntity(EntityType<? extends Piglin> entityType, Level level) {
         super(entityType, level);
         this.setImmuneToZombification(false);
+        System.out.println("¡Un vikingo ha nacido!");
     }
 
     @Override
@@ -128,6 +130,11 @@ public class MysticalVikingEntity extends Piglin {
 
     public static boolean checkVikingSpawnRules(EntityType<? extends Monster> type, LevelAccessor world, EntitySpawnReason spawnReason, BlockPos pos, RandomSource random) {
         return Monster.checkAnyLightMonsterSpawnRules(type, world, spawnReason, pos, random);
+    }
+
+    @Override
+    public boolean checkSpawnObstruction(LevelReader world) {
+        return world.isUnobstructed(this);
     }
 
     @Override
