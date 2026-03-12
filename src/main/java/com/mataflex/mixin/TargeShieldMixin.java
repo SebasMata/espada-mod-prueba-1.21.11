@@ -2,6 +2,7 @@ package com.mataflex.mixin;
 
 import com.mataflex.item.ModItems;
 import com.mataflex.item.custom.TargeShieldItem;
+import com.mataflex.sound.CustomSounds;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -30,7 +31,7 @@ public abstract class TargeShieldMixin {
 				if (player.getRandom().nextFloat() < 0.35f) {
 					attacker.hurtServer(level, level.damageSources().thorns(player), 2.0f);
 					level.playSound(null, player.getX(), player.getY(), player.getZ(),
-							SoundEvents.THORNS_HIT, SoundSource.PLAYERS, 1.0F, 1.0F);
+							CustomSounds.HORNED_HELMET_STAB, SoundSource.PLAYERS, 1.0F, 1.0F);
 				}
 			}
 

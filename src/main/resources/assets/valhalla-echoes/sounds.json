@@ -58,5 +58,10 @@
     "sounds": [
       "valhalla-echoes:viking_attack"
     ]
-  }
-}
+  },
+  "horned_helmet_stab": {
+    "subtitle": "subtitles.valhalla-echoes.horned_helmet_stab",
+    "sounds": [
+      "valhalla-echoes:horned_helmet_stab"
+    ]
+  }}

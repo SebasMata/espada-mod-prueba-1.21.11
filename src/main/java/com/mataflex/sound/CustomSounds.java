@@ -19,6 +19,8 @@ public class CustomSounds {
     public static final SoundEvent VIKING_CELEBRATE = registerSound("viking_celebrate");
     public static final SoundEvent VIKING_JEALOUS = registerSound("viking_jealous");
 
+    public static final SoundEvent HORNED_HELMET_STAB = registerSound("horned_helmet_stab");
+
 
     private static SoundEvent registerSound(String name) {
         Identifier id = Identifier.fromNamespaceAndPath(ValhallaEchoes.MOD_ID, name);
