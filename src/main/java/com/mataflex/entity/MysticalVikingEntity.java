@@ -76,7 +76,6 @@ public class MysticalVikingEntity extends Piglin {
         @SuppressWarnings("unchecked")
         Brain<MysticalVikingEntity> vikingBrain = (Brain<MysticalVikingEntity>) (Brain<?>) piglinBrain;
 
-        // GUARDAR PARA DESPUÉS
         this.mysticalVikingBrain = vikingBrain;
 
         return MysticalVikingAi.makeBrain(vikingBrain);
