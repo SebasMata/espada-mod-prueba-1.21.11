@@ -27,6 +27,7 @@ You can download the mod directly here:
 * [v0.2.1-pre-alpha](https://github.com/SebasMata/valhalla-echoes-1.21.11/releases/tag/v0.2.1-pre-alpha)
 * [v0.2.2-pre-alpha](https://github.com/SebasMata/valhalla-echoes-1.21.11/releases/tag/v0.2.2-pre-alpha)
 * [v0.2.3-pre-alpha](https://github.com/SebasMata/valhalla-echoes-1.21.11/releases/tag/v0.2.3-pre-alpha)
+* [v0.2.4-pre-alpha](https://github.com/SebasMata/valhalla-echoes-1.21.11/releases/tag/v0.2.4-pre-alpha)
 
 ## Notes
 Private project designed to learn how to code Minecraft Mods.
