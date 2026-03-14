@@ -2,6 +2,10 @@
 
 ### Designed for Minecraft Java & Fabric
 
+<img width="640" height="360" alt="fabric" src="https://cdn.modrinth.com/data/cached_images/513035d1231a86dff137c74e04a5e64633593f10.png"/>
+
+
+
 **Minecraft:** Java version 1.21.11
 
 **Fabric:** At least 0.18.4
@@ -35,4 +39,4 @@ You can download the mod directly here:
 >1) You're ready to play!
 
 ## Notes
-Private project designed to learn how to code Minecraft Mods.
+Private project designed to learn how to code Minecraft Mods. Still testing and improving.
