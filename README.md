@@ -2,13 +2,15 @@
 
 ### Designed for Minecraft Java & Fabric
 
-<img width="640" height="360" alt="fabric" src="https://cdn.modrinth.com/data/cached_images/513035d1231a86dff137c74e04a5e64633593f10.png"/>
-
-
+![img_2.png](img_2.png)
 
 **Minecraft:** Java version 1.21.11
 
-**Fabric:** At least 0.18.4
+
+![img_1.png](img_1.png)
+
+
+**Fabric version:** At least 0.18.4
 
 This mod adds a new mob: **Mystical Vikings**. They have overpowered weapons and tools you should try to get by farming a lot of Mystical Vikings.
 
@@ -35,8 +37,8 @@ You can download the mod directly here:
 
 ### Install guide
 >1) Install the [Fabric modloader](https://fabricmc.net).
->1) Download and put the `valhalla-echoes-v0.x.jar` file into `.minecraft/mods` folder.
->1) You're ready to play!
+>2) Download and put the `valhalla-echoes-v0.x.jar` file into `.minecraft/mods` folder.
+>3) You're ready to play!
 
 ## Notes
 Private project designed to learn how to code Minecraft Mods. Still testing and improving.
