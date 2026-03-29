@@ -7,7 +7,7 @@
 - [ ] Bioma nuevo de vikingos (similar a Taiga)
 
 ### Estructuras
-- [ ] Aldeas de vikingos - **Alta prioridad**
+- [X] Aldeas de vikingos - **Alta prioridad**
 - [ ] Estandartes de clanes
 
 ## v0.4.x (Planeado)

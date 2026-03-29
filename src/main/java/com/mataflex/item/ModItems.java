@@ -148,15 +148,6 @@ public class ModItems {
                     .rarity(Rarity.EPIC)
     );
 
-//    public static final Item HORNED_HELMET = register(
-//            "horned_helmet",
-//            Item::new,
-//            new Item.Properties()
-//                    .durability(3196)
-//                    .humanoidArmor(ModArmorMaterials.MYSTICAL, ArmorType.HELMET)
-//                    .rarity(Rarity.EPIC)
-//    );
-
     public static final Item HORNED_HELMET = registerHornedHelmet(
             new Item.Properties()
                     .durability(3196)
