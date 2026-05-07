@@ -3,7 +3,6 @@
 ## **Designed for Minecraft Java 1.21.11 & Fabric**
 ![Fabric logo](https://cdn.modrinth.com/data/cached_images/513035d1231a86dff137c74e04a5e64633593f10.png)
 
-<img width="640" height="360" alt="fabric" src="https://cdn.modrinth.com/data/cached_images/513035d1231a86dff137c74e04a5e64633593f10.png"/>
 
 
 
